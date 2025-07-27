@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.color-1{
+    color:#8987A1;
+}
+.color-2{
+    color: #E95A08;
+}
+.color-3{
+    color: #000000;
+}
+
+/* navbar related style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+.nav-links a{
+    text-decoration:none ;
+    font-weight: 400;
+}
+.nav-links a.first-link{
+    font-size: bold;
+    color: #252432;
+}
+.nav-links a.fourth-link{
+    font-size: medium;
+    color: #000000;
+}
+/* banner related-style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px;
+    max-width: 1140px;
+
+
+}
+.banner-title{
+    font-size: 65px;
+    font-weight:700;
+    max-width: 570px;
+}
+.banner-title .black{
+    /* font-size: 100px; */
+}
+.banner-title .orange{
+    
+}
+.banner-description{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+.banner-image{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+
